@@ -1,9 +1,9 @@
 public class Exercicio5 {
     public static void main(String[] args) {
         String vendedor="Ana";
-        double salario=3199.99;
+        double salario=1200;
         double venda= 2000;
-        double comissao=(15*venda)/100;
+        double comissao=venda*((double) 15 /100);
 
         double salarioComissao = salario+comissao;
 
